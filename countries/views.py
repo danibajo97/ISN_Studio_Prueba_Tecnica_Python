@@ -17,6 +17,7 @@ def encrypt(string):
     return hashlib.sha1(string).hexdigest()
 
 
+# Imprimir cuanto tiempo tardo el proceso.
 def timer(func):
     """helper function to estimate view execution time"""
 
